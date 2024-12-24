@@ -1,0 +1,66 @@
+# ==================================================
+# Exclude
+# ==================================================
+
+# ===== Template
+
+# Executable file
+*.exe
+
+# Shortcut
+*.lnk
+
+# dll for python
+*.pyd
+
+# Text
+*.txt
+
+# slide
+*.pptx
+
+# Folder containing nuget packages
+packages
+
+# core dump file
+core
+
+# Other
+**/__pycache__/
+.vs/
+.vscode/
+
+# ===== Add
+
+# venv
+venv
+
+# data
+data
+
+# sphinx
+docs/build
+
+# ==================================================
+# Re-include
+# ==================================================
+
+# ===== Template
+
+# Text file to save measurement results
+!docs/data.txt
+
+# Text file with TODO list, etc.
+!docs/todo.txt
+# !docs/memo.txt
+
+# cmake
+!CMakeLists.txt
+
+# ===== Add
+
+# pip freeze > requirements.txt
+# requirements     : for unix
+# requirements_win : for windows
+!requirements.txt
+!requirements_win.txt
