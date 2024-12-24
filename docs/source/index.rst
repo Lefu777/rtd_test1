@@ -17,25 +17,25 @@ documentation for details.
 
    pages/page1
 
-見出し1
+Head 1
 -----------------
 
-子見出し1-1
+Subhead 1-1
 ^^^^^^^^^^^^
 
 aaa
 
-子見出し1-2
+Subhead 1-2
 ^^^^^^^^^^^^
 
 bbb
 
-子見出し1-2
+Subhead 1-2
 ^^^^^^^^^^^^
 
 ccc
 
-見出し2
+Head 2
 -----------------
 
 `Sphinx Docs <https://www.sphinx-doc.org/ja/master/index.html>`_
